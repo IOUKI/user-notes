@@ -1,0 +1,8 @@
+USE usernotes;
+
+CREATE TABLE notes(
+    ID INT AUTO_INCREMENT NOT NULL,
+    Title VARCHAR(100) NOT NULL,
+    Content VARCHAR(200) NOT NULL,
+    PRIMARY KEY(ID)
+);
